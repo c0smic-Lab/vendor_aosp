@@ -169,10 +169,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
 
-# rsync
-PRODUCT_PACKAGES += \
-    rsync
-
 # Storage manager
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.storage_manager.enabled=true
