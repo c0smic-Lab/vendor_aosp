@@ -59,6 +59,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.software.credentials.prebuilt.xml
 
+# Enable blur
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1 \
+
 # Enable Material Design 3 Expressive
 PRODUCT_PRODUCT_PROPERTIES += \
     is_expressive_design_enabled=true
